@@ -20,12 +20,9 @@ nav:
       - Lieferkisten: lieferkiste.md
       - Gebäudereinigung: gebaeudereinigung.md
     - API:
-      - MRT! API: api-intro.md
+      - MultiRoute API: api-intro.md
       - Einführung: ablauf.md
       - Routen & Endpunkte: routen.md
-      - Beispiele:
-        - Python: mrt-api-python.md
-        - PHP: mrt-api-php.md
 #    - Referenzen: 14.md
     - Preise: preise.md
     - Impressum: impressum.md
