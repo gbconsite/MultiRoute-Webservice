@@ -86,6 +86,10 @@ markdown_extensions:
       permalink: true
   - toc:
       title: Inhalt
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      
 plugins:
   - minify:
       minify_html: true
