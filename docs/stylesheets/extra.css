@@ -2,9 +2,18 @@
   --md-primary-fg-color:        #484c5a;
   --md-primary-fg-color--light: #ECB7B7;
   --md-primary-fg-color--dark:  #a92358;
-  --md-accent-fg-color: #8d8dc4;
+  --md-accent-fg-color: #66669c;
   --table-td-background-even: #f8f8f8;
   --table-td-background-uneven: white; 
+  --md-typeset-a-color: #8d8dc4;
+}
+
+/* dark mode landing page specific*/
+ [data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #b4b4f3;
+  --md-accent-fg-color: #c2c2ff;
+  --table-td-background-even: #464f6cad;
+  --table-td-background-uneven: #464f6c; 
 }
 
 /* Active tab bold & color */
@@ -19,7 +28,6 @@
     /*color: var(--md-accent-fg-color);*/
 }
 
-
 /* navigation bar active color*/
 .md-nav__item .md-nav__link--active {
     font-weight: bold !important;
@@ -30,7 +38,6 @@
     font-size: .75rem !important;
     color: var(--md-accent-fg-color);
 }
-
 
 /* frontpage elements */
 .tx-hero h1 {
@@ -83,7 +90,6 @@ table {
     table tr th :last-child, table tr td :last-child {
       margin-bottom: 0; }
 
-
 /*Tabbed extension css*/
 .tabbed-set {
   display: flex;
@@ -119,7 +125,6 @@ table {
     display: block;
 }
 
-
 /* Admonition settings option*/
 .md-typeset .admonition.settings, .md-typeset details.settings {
     border-left: .22rem solid #448aff;
@@ -132,12 +137,10 @@ table {
     color: #448aff;
     content: "settings"}
 
-
 /* Site width etc.*/
 .md-grid {
     max-width: 64rem !important;
 }
-
 
 /* mkdocstrings styling
 /* Indentation. */
@@ -159,11 +162,4 @@ div.doc-contents:not(.first) {
 
 .tx-hero__content p {
   font-weight: bold;
-}
-
- /* dark mode landing page specific*/
- [data-md-color-scheme="slate"] {
-  --md-typeset-a-color: #8d8dc4;
-  --table-td-background-even: #464f6cad;
-  --table-td-background-uneven: #464f6c; 
 }
