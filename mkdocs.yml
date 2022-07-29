@@ -20,8 +20,8 @@ nav:
       - MultiRoute API: api-intro.md
       - Einführung: ablauf.md
       - Routen & Endpunkte: routen.md
-      - Programmbeispiel PHP
-      - Programmbeispiel C#
+      - Programmbeispiel PHP: code_php.md
+      - Programmbeispiel C#: code_csharp.md
     - Preise: preise.md
     - Impressum: impressum.md
     - Datenschutz: datenschutz.md
