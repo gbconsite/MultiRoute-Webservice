@@ -1,12 +1,10 @@
-# MultiRoute Tour! API 
+# MultiRoute API (Webservice)
 
-Willkommen in der MultiRoute Tour! API-Dokumentation. 
+Willkommen in der MultiRoute API-Dokumentation. 
 
-MultiRoute Tour! lässt sich nicht nur über die graphische Benutzeroberfläche, sondern parallel auch über eine Schnittstelle steuern. Sie können Ihr CRM oder ERP mit MultiRoute Tour! verbinden, sodass Tourenberechnungen und -exporte automatisiert durchgeführt werden.
+MultiRoute lässt sich nicht nur über die graphische Benutzeroberfläche, sondern parallel auch über eine Schnittstelle steuern. Sie können Ihr CRM oder ERP mit MultiRoute  verbinden, sodass Tourenberechnungen und -exporte automatisiert durchgeführt werden.
 
-MultiRoute Tour! bieten wir als System as a Service (SaaS) an oder als InHouse-Variante für komplexe Berechnungen.
-
-Unsere SaaS finden Sie unter [https://tour.multiroute.de](https://tour.multiroute.de). Die InHouse-Variante kann unter jeder beliebigen Domain laufen.
+Unsere SaaS finden Sie unter [https://multiroute.de](https://multiroute.de).
 
 Bei Fragen wenden Sie sich an:
 
