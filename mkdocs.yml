@@ -2,28 +2,26 @@ site_name: MultiRoute Webservice
 
 nav:
     - Home: index.md
-    - Handbuch:
-      - Übersicht: uebersicht.md
-      - Einführung: einfuehrung.md
-      - 1. Upload: upload.md
-      - 2. Planung: planung.md
-      - 3. Flotten: flotten.md
-      - 4. Touren: tour.md
-      - Tipps & Tricks: tipps.md
-      - Changelog: changelog.md
-    - Use Cases:
-      - Spediteur: spediteur.md
-      - Außendienst: aussendienst.md
-      - Schneeräumung: schneeraeumung.md
-      - Essen auf Rädern: essen_auf_raedern.md
-      - Getränkelieferungen: getraenkelieferung.md
-      - Lieferkisten: lieferkiste.md
-      - Gebäudereinigung: gebaeudereinigung.md
+#    - Handbuch:
+#      - Übersicht: uebersicht.md
+#      - Einführung: einfuehrung.md
+#      - 1. Upload: upload.md
+#      - 2. Planung: planung.md
+#      - 3. Flotten: flotten.md
+#      - 4. Touren: tour.md
+#      - Tipps & Tricks: tipps.md
+#      - Changelog: changelog.md
+    - Referenzen:
+      - SEWOBE AG: sewobe.md
+      - SoftTec GmbH: softtec.md
+      - Bits & Bytes Service und Lernen GmbH: bitsandbytes.md
+      - Hofladenlogistik: hofladenlogistik.md
     - API:
       - MultiRoute API: api-intro.md
       - Einführung: ablauf.md
       - Routen & Endpunkte: routen.md
-#    - Referenzen: 14.md
+      - Programmbeispiel PHP
+      - Programmbeispiel C#
     - Preise: preise.md
     - Impressum: impressum.md
     - Datenschutz: datenschutz.md
