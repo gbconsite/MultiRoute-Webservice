@@ -54,9 +54,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     
-  font:
-    text: Roboto
-    code: Roboto Mono
+  font: false
   icon:  # from .icons path. Add to theme override for custom logo.
     logo: truck  # top left header logo
     repo: fontawesome/brands/git-alt
