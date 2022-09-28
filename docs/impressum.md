@@ -1,6 +1,6 @@
 # Impressum
 
-## Kontakt und Support für MultiRoute Tour!
+## Kontakt und Support für den MultiRoute Webservice
 
 |Vertrieb|Technischer Support|
 |---|---|
@@ -8,14 +8,14 @@
 
 
 **Kontaktieren Sie uns für Ihre kostenlose Demoversion! 
-Gerne klären wir in einem unverbindlichen Erstgespräch Ihre Anforderungen und die Eignung von MultiRoute Tour! für Ihre Fragestellung ab.**
+Gerne klären wir in einem unverbindlichen Erstgespräch Ihre Anforderungen und die Eignung des MultiRoute Webservices für Ihre Fragestellung ab.**
 
 ## Impressum
 gb consite GmbH Geomarketing Software & Beratung<br>
 Mittenheimer Straße 58<br>
 85764 Oberschleißheim, Deutschland<br>
 
-## Kontakt gbconsite
+## Kontakt gb consite
 Telefon: +49 89 / 309 052 970<br>
 Telefax: +49 89 / 309 052 979<br>
 E-Mail: [info@gbconsite.de](mailto:info@gbconsite.de)<br>
