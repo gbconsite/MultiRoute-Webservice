@@ -1208,8 +1208,14 @@ Oder als Auswahlseite:
 
 ### Webservice-Delete
 
+Kompletter Upload
 <https://webservice.tourenplaner.biz/delete.json?tid=%3Ctid>
 
+Nur Waypoints
+https://webservice.tourenplaner.biz/delete_waypoints?tid=tid&uids=uid1,uid2
+
+Falls nur Waypoints gelöscht wurden, muss die Optimierung noch einmal gestartet werden mit
+https://webservice.tourenplaner.biz/optimize?tid=tid
 
 
 #### Rückgabe
