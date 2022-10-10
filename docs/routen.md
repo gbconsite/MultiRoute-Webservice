@@ -1,7 +1,12 @@
 # Routen & Endpunkte
 
-## Webservice-Request
+## Authentifizierung 
 
+Die Authentifizierung findet mittels mittels Basic Auth (http://username:password@domain/) statt. 
+
+Sie können Ihren Account auch einer Konfigurationsdatei für einen schnelleren und sicheren Login hinterlegen.
+
+## Webservice-Request
 
 
 ### Das Webservice-Request-Objekt
