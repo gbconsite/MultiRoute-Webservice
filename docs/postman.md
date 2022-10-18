@@ -47,5 +47,5 @@ Folgende Einstellungen:
 Der Request liefert anschließend die `tid` zurück: 
 
 ```JSON
-{"return_code":0,"error_description":"","tid":"OjuHx4ObfwxEe6YkVZMlpA","credit_expiration_date":"2022-10-24T23:59:00+02:00"}
+{"return_code":0,"error_description":"","tid":"OjKl25fJw353463sgeK2lpA","credit_expiration_date":"2022-10-24T23:59:00+02:00"}
 ```
