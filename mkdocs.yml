@@ -20,6 +20,7 @@ nav:
       - MultiRoute API: api-intro.md
 #      - Einführung: ablauf.md
       - Routen & Endpunkte: routen.md
+      - Postmanbeispiel: postman.md
       - Programmbeispiel PHP: code_php.md
       - Programmbeispiel C#: code_csharp.md
     - Preise: preise.md
