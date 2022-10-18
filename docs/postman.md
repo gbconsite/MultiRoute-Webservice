@@ -1,5 +1,7 @@
 # Postman Test
 
+[Postman](https://www.postman.com/) ist ein kostenloses Programm zum einfachen Testen von APIs.
+
 Als POST-Request mit der folgenden URL `https://webservice.tourenplaner.biz/startjob` und Basic Auth senden. 
 
 ![image](https://user-images.githubusercontent.com/47481567/196468883-f90eba72-7071-433e-82a2-a988cfd006ff.png)
