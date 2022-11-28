@@ -56,8 +56,8 @@ theme:
     - navigation.indexes
     
   font: false
+  logo: truck.svg  # top left header logo
   icon:  # from .icons path. Add to theme override for custom logo.
-    logo: truck  # top left header logo
     repo: fontawesome/brands/git-alt
   favicon: assets/favicon.ico #browser tab logo
 
