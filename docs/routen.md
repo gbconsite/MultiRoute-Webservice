@@ -117,6 +117,7 @@ werden einfach durch gereicht.
 | lat       | **Required** Latitude  | Bsp.: 48.5 |
 | lon       | **Required** Longitude | Bsp.: 11.5 |
 
+Wenn Koordinaten verwendet werden, sind die Angaben zu locality, postcode und street des Parameters **address** **Optional**
 
 
 ##### time
