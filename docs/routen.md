@@ -146,8 +146,8 @@ Wenn Koordinaten verwendet werden, wird der Parameter **address** **Optional**
 1.  Zeitangaben in ISO 8601 Format
 2.  duration\_of\_stay wird nicht für den ersten Punkt ausgewertet.
 3.  arrival, departure es wir nur <u>ein</u> fixer Termin verwendet.
-    1.  Es wird beim ersten Datensatz wo es eine arrival oder departure
-        Angabe findet als Fixtermin festgelegt.
+    1.  arrival oder departure des ersten Datensatzes, der von der API
+        damit identifiziert wird, wird als Fixtermin festgelegt.
     2.  Wenn arrival und departure angegeben sind, dann wird arrival als
         Fixtermin festgelegt.
 
