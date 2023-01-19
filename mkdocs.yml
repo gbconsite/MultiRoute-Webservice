@@ -54,11 +54,13 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
+    - content.action.edit
     
   font: false
   logo: truck.svg  # top left header logo
   icon:  # from .icons path. Add to theme override for custom logo.
     repo: fontawesome/brands/git-alt
+    edit: material/file-edit-outline
   favicon: assets/favicon.ico #browser tab logo
 
 extra_javascript:
