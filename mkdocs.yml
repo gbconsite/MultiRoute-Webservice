@@ -55,6 +55,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - content.action.edit
+    - content.code.copy
     
   font: false
   logo: truck.svg  # top left header logo
