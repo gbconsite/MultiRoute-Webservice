@@ -38,15 +38,15 @@ theme:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/brightness-7 
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-4
         name: Switch to light mode
   # Don't include MkDocs' JavaScript
-  include_search_page: false
+  include_search_page: true
   search_index_only: true
   # Default values, taken from mkdocs_theme.yml
   language: de
@@ -56,6 +56,9 @@ theme:
     - navigation.indexes
     - content.action.edit
     - content.code.copy
+    - search.highlight
+    - search.share
+    - search.suggest
     
   font: false
   logo: truck.svg  # top left header logo
