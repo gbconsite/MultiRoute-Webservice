@@ -1,4 +1,5 @@
 site_name: MultiRoute Webservice
+site_url: https://api.multiroute.de/handbuch/
 
 nav:
     - Home: index.md
