@@ -1,3 +1,7 @@
+---
+description: MultiRoute ist die ideale Sotware für Lieferdienste und kann von Cloud-Diensten anprogrammiert werden.
+---
+
 MultiRoute Partner berichten…
 =============================
 

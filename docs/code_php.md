@@ -1,3 +1,7 @@
+---
+description: Sehen Sie sich unser PHP-Programmierbeispiel an.
+---
+
 # Programmbeispiel PHP 
 
 ```php

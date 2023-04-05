@@ -1,3 +1,7 @@
+---
+description: Sehen Sie sich unser C#-Programmiereispiel an.
+---
+
 # Programmbeispiel C\#
 
 ```C#

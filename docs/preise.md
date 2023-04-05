@@ -1,3 +1,7 @@
+---
+description: Die MultiRoute-Preisstaffelung ist von mehreren Faktoren abhängig. Kontaktieren Sie uns für ein individuelles Angebot.
+---
+
 # Preise 
 
 Die Preisstaffelung richtet sich nach Ihren individuellen Anforderungen. 

@@ -1,3 +1,7 @@
+---
+description: MultiRoute ist die ideale Software für die Hofladenlogistik.
+---
+
 MultiRoute Partner berichten (4)…
 =================================
 

@@ -1,3 +1,7 @@
+---
+description: Im Impressum finden Sie unsere Kontaktinformationen. Rufen Sie uns an oder schreiben Sie uns gerne eine Mail.
+---
+
 # Impressum
 
 ## Kontakt und Support für den MultiRoute Webservice
