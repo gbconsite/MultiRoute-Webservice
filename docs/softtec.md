@@ -9,7 +9,9 @@ In unserer Partner-Serie berichten wir, wie und wo [MultiRoute](http://www.multi
 
 **[SoftTec GmbH](https://www.softtec.de/)** ([VIS-mobile](https://www.vis-mobile.de/)) 
 
-[![](https://gbconsite.de/wp-content/uploads/2020/10/SoftTec_Logo.png "SoftTec für die Außendienst-Steuerung")](https://www.softtec.de/)
+<img src="https://gbconsite.de/wp-content/uploads/2020/10/SoftTec_Logo.png" "SoftTec für die Außendienst-Steuerung" url="https://www.softtec.de">
+
+![image](https://your-image-url.type) with <img src="https://your-image-url.type" width="100" height="100">
 
 Wir setzen MultiRoute in unserer Außendienst-Steuerung VIS-mobile ein. Mit VIS-mobile hat der Außendienstmitarbeiter alle Informationen der im Unternehmen eingesetzten Systeme (ERP oder CRM) gesammelt und griffbereit zur Hand. Das System kann online und offline eingesetzt werden – es ist somit keine dauerhafte Internetverbindung nötig. VIS-mobile unterstützt Sie durch umfangreiche Informationen wie Kundendaten, Artikellisten, Auftragserfassung, und vieles mehr. Sogar die Tourenplanung wird mit Hilfe von VIS-mobile optimiert. Die Synchronisation aller Daten mit dem individuellen, vorgeschalteten System macht VIS-mobile zu einem wahren Alleskönner. Das Vertreter-Informations-System ist somit die perfekte Verbindung zwischen dem Innen- und Außendienst.
 
