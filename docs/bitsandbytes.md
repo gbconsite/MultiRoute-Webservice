@@ -9,7 +9,7 @@ Der Handel wandelt sich. Lieferservice wird immer wichtiger. In unserer Partner-
 
 **[Bits & Bytes Service und Lernen GmbH](https://www.biooffice-kassensysteme.de/)**
 
-[![](https://gbconsite.de/wp-content/uploads/2020/11/Bits-Bytes-Logo.jpg "Bits & Bytes GmbH")](https://www.biooffice-kassensysteme.de/)
+<img src="https://gbconsite.de/wp-content/uploads/2020/11/Bits-Bytes-Logo.jpg "Bits & Bytes GmbH" url="https://www.biooffice-kassensysteme.de/" width="200">
 
 _„Für uns als Hersteller von Software für den Bio-Handel und Bio-Lieferbetriebe ist es besonders wichtig, dass unsere Kunden ihre Ware stets frisch und schnell zu ihren Endkunden liefern können._
 
