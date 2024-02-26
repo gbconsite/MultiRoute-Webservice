@@ -8,7 +8,7 @@ description: Finden Sie hier unser Postman-Beispiel zur einfachen Anprogrammieru
 
 Als POST-Request mit der folgenden URL `https://webservice.tourenplaner.biz/startjob` und Basic Auth senden. 
 
-![image](https://user-images.githubusercontent.com/47481567/196468883-f90eba72-7071-433e-82a2-a988cfd006ff.png)
+![Postman Authentication](https://user-images.githubusercontent.com/47481567/196468883-f90eba72-7071-433e-82a2-a988cfd006ff.png)
 
 Im Body das Tour-Objekt eingeben, bspw.:
 
@@ -48,7 +48,7 @@ Im Body das Tour-Objekt eingeben, bspw.:
 
 Folgende Einstellungen:
 
-![image](https://user-images.githubusercontent.com/47481567/196469260-0b02fb21-2729-4818-8c0b-ac50a10ee799.png)
+![Postman Einstellungen](https://user-images.githubusercontent.com/47481567/196469260-0b02fb21-2729-4818-8c0b-ac50a10ee799.png)
 
 Der Request liefert anschließend die `tid` zurück: 
 
