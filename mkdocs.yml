@@ -1,5 +1,7 @@
 site_name: MultiRoute Webservice
 site_url: https://api.multiroute.de/handbuch/
+site_author: gb consite GmbH
+site_description: Routenplanung und Optimierung für viele Zwischenziele
 
 nav:
     - Home: index.md
@@ -103,6 +105,7 @@ plugins:
   - search:
       lang: de
   - glightbox
+  - social
           
 #extra:
 #  alternate:
