@@ -10,9 +10,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
-          python-version: 3.x
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-glightbox mkdocs-minify-plugin pillow cairosvg
+          python-version: 3.11
+      - run: pip install "mkdocs-material[imaging]==9.5.18"
+      - run: pip install mkdocs-glightbox mkdocs-minify-plugin
       - run: mkdocs gh-deploy --force
           
       # Node setup
