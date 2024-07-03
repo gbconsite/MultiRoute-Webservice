@@ -22,7 +22,7 @@ jobs:
 
       # install gzipper with npm
       - run: npm install
-      - run: npm i gzipper -g
+      - run: npm install -g gzipper@7.2.0
 
       # check out other branch (gh-pages) 
       - uses: actions/checkout@v2
