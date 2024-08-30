@@ -1,4 +1,4 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
@@ -8,33 +8,50 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
+      # Set up Python
       - uses: actions/setup-python@v2
         with:
           python-version: 3.11
-      - run: pip install "mkdocs-material[imaging]==9.5.18"
-      - run: pip install mkdocs-glightbox mkdocs-minify-plugin
-      - run: mkdocs gh-deploy --force
+
+      # Install uv and set up a virtual environment
+      - run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          source $HOME/.cargo/env
+          uv venv --python 3.11
+          uv pip install "mkdocs-material[imaging]==9.5.18"
+          uv pip install mkdocs-glightbox mkdocs-minify-plugin
           
+      # Deploy with mkdocs
+      - run: uv run mkdocs gh-deploy --force
+
+      # Check out other branch (gh-pages)
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+
+      # Commit pages without compression
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "pages without compression"
+          branch: gh-pages
+          push_options: '--force'
+
       # Node setup
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
 
-      # install gzipper with npm
+      # Install gzipper with npm
       - run: npm install
       - run: npm install -g gzipper@7.2.0
 
-      # check out other branch (gh-pages) 
-      - uses: actions/checkout@v2
-        with:
-          ref: gh-pages
-
-      # compress all files in all directories
+      # Compress all files in all directories
       - run: gzipper compress --include htm,html,css,js,svg,xml,map,json,img,png,jpg,jpeg --zopfli --brotli --remove-larger .
 
-      # commit
+      # Commit compressed files
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Compress Files
+          commit_message: "pages with compression"
           branch: gh-pages
           push_options: '--force'
