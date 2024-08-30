@@ -106,6 +106,19 @@ plugins:
       lang: de
   - glightbox
   - social
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/company/gb-consite-gmbh
+    - icon: fontawesome/brands/xing
+      link: https://www.xing.com/pages/gbconsitegmbh
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/gbconsite
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/standortanalyse
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@Standortanalyse
           
 #extra:
 #  alternate:
