@@ -6,7 +6,7 @@ description: MultiRoute bietet eine vollumfängliche API an. Kontaktieren Sie un
 
 Willkommen in der MultiRoute API-Dokumentation. 
 
-MultiRoute lässt sich nicht nur über die graphische Benutzeroberfläche, sondern auch über eine Schnittstelle steuern. Sie können Ihr CRM oder ERP mit MultiRoute  verbinden, sodass Tourenberechnungen und -exporte automatisiert durchgeführt werden.
+MultiRoute lässt sich nicht nur über die graphische Benutzeroberfläche, sondern auch über eine Schnittstelle (API) steuern. Sie können Ihr CRM oder ERP mit MultiRoute  verbinden, sodass Tourenberechnungen und -exporte automatisiert durchgeführt werden.
 
 Unsere SaaS finden Sie unter [https://multiroute.de](https://multiroute.de).
 
