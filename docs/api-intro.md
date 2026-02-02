@@ -12,6 +12,7 @@ Unsere SaaS finden Sie unter [https://multiroute.de](https://multiroute.de).
 
 Bei Fragen wenden Sie sich an:
 
-**Dominik Weckmüller<br>
-[dominik.weckmueller@gbconsite.de](mailto:dominik.weckmueller@gbconsite.de)<br>
-Telefon: +49 89 / 309 052 974**
+**Alina Erke<br>
+[alina.erke@gbconsite.de](mailto:alina.erke@gbconsite.de)<br>
+Telefon: +49 89 / 309 052 975**
+
