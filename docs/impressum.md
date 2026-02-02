@@ -15,7 +15,8 @@ Gerne klären wir in einem unverbindlichen Erstgespräch Ihre Anforderungen und 
 ## Impressum
 gb consite GmbH Geomarketing Software & Beratung<br>
 Mittenheimer Straße 58<br>
-85764 Oberschleißheim, Deutschland<br>
+85764 Oberschleißheim<br> 
+Deutschland<br>
 
 ## Kontakt gb consite
 Telefon: +49 89 / 309 052 970<br>
@@ -32,4 +33,5 @@ Registerart: Handelsregister<br>
 Registerort: Amtsgericht München<br>
 Registernummer: HRB 168433<br>
 Umsatzsteuer-ID: DE 254841920<br>
+
 
