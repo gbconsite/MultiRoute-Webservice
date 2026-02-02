@@ -6,9 +6,7 @@ description: Im Impressum finden Sie unsere Kontaktinformationen. Rufen Sie uns 
 
 ## Kontakt und Support für den MultiRoute Webservice
 
-|Vertrieb|Technischer Support|
-|---|---|
-|**Alina Erke<br>[alina.erke@gbconsite.de](mailto:alina.erke@gbconsite.de)<br>Telefon: +49 89 / 309 052 975**|**Dominik Weckmüller<br>[dominik.weckmueller@gbconsite.de](mailto:dominik.weckmueller@gbconsite.de)<br>Telefon: +49 89 / 309 052 974**|
+**Alina Erke<br>[alina.erke@gbconsite.de](mailto:alina.erke@gbconsite.de)<br>Telefon: +49 89 / 309 052 975**
 
 
 **Kontaktieren Sie uns für Ihre kostenlose Demoversion! 
@@ -34,3 +32,4 @@ Registerart: Handelsregister<br>
 Registerort: Amtsgericht München<br>
 Registernummer: HRB 168433<br>
 Umsatzsteuer-ID: DE 254841920<br>
+
