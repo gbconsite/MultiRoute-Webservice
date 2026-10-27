@@ -3,54 +3,68 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
+permissions:
+  contents: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
-      # Set up Python
+
       - uses: actions/setup-python@v2
         with:
           python-version: 3.11
 
-      # Install uv and set up a virtual environment
-      - run: |
+      - name: Install Zensical and ghp-import
+        run: |
           curl -LsSf https://astral.sh/uv/install.sh | sh
           source $HOME/.cargo/env
           uv venv --python 3.11
-          uv pip install "mkdocs-material[imaging]==9.5.18"
-          uv pip install mkdocs-glightbox mkdocs-minify-plugin
-          
-      # Deploy with mkdocs
-      - run: uv run mkdocs gh-deploy --force
+          uv pip install "zensical==0.0.67" "ghp-import==2.1.0"
 
-      # Check out other branch (gh-pages)
-      - uses: actions/checkout@v2
+      - name: Build documentation
+        run: uv run zensical build --clean
+
+      - name: Publish generated site to gh-pages
+        if: github.event_name == 'push'
+        run: uv run ghp-import --no-jekyll --push --force site
+
+      - name: Check out published pages
+        if: github.event_name == 'push'
+        uses: actions/checkout@v2
         with:
           ref: gh-pages
 
-      # Commit pages without compression
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit pages without compression
+        if: github.event_name == 'push'
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "pages without compression"
           branch: gh-pages
           push_options: '--force'
 
-      # Node setup
-      - uses: actions/setup-node@v2
+      - name: Set up Node
+        if: github.event_name == 'push'
+        uses: actions/setup-node@v2
         with:
           node-version: '14'
 
-      # Install gzipper with npm
-      - run: npm install
-      - run: npm install -g gzipper@7.2.0
+      - name: Install compression dependencies
+        if: github.event_name == 'push'
+        run: |
+          npm install
+          npm install -g gzipper@7.2.0
 
-      # Compress all files in all directories
-      - run: gzipper compress --include htm,html,css,js,svg,xml,map,json,img,png,jpg,jpeg --zopfli --brotli --remove-larger .
+      - name: Compress published pages
+        if: github.event_name == 'push'
+        run: gzipper compress --include htm,html,css,js,svg,xml,map,json,img,png,jpg,jpeg --zopfli --brotli --remove-larger .
 
-      # Commit compressed files
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit compressed pages
+        if: github.event_name == 'push'
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "pages with compression"
           branch: gh-pages
